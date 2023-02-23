@@ -1,5 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
 
-  
   html {
     font-family: Arial, sans-serif;
   }
@@ -128,16 +134,16 @@
     margin-bottom: 15px;
   }
   
-  .hobbies {
+  .Dedication {
     padding-top: 10px;
     background: rgba(255, 52, 52, 0.039);
   }
   
-  .hobbies h2 {
+  .Dedication h2 {
     text-align: center;
   }
   
-  .hobbies div {
+  .Dedication div {
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -152,15 +158,5 @@
     margin-bottom: 20px;
   }
   
-  table,
-  th,
-  td {
-    border-collapse: collapse;
-    border: 1px solid;
-  }
-  
-  table tr th,
-  table tr td {
-    padding: 15px;
-  }
+ 
   

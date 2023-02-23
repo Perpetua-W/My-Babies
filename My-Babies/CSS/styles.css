@@ -1,0 +1,166 @@
+
+  
+  html {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    position: relative;
+    padding: 0px 2px;
+    background: rgb(236, 236, 236);
+    margin-bottom: 30px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  .navbar {
+    height: 60px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .navlinks {
+    display: flex;
+    gap: 30px;
+  }
+  
+  /* LOGO */
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .navlinks li a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  
+  .navlinks li a:hover {
+    color: orange;
+  }
+  
+  .about_me {
+    padding: 0px 30px;
+  }
+  
+  .N-Cubed div {
+    display: flex;
+  }
+  
+  .left {
+    width: 60%;
+  }
+  
+  .left ul li {
+    list-style-type: disc;
+  }
+  
+  .right {
+    width: 40%;
+  }
+  
+  /* this is for making responsive images */
+  .right img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .left h1 {
+    font-size: 50 px;
+    color: rgb(255, 52, 52);
+  }
+  
+  .Nathan {
+    padding: 30px 30px;
+    background: rgba(255, 52, 52, 0.039);
+  }
+  
+  .Nathan h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .left image {
+    float: left;
+  
+    width: 50%;
+  }
+  
+  .my_background .column-right {
+    float: left;
+    width: 50%;
+  }
+  
+  .my_background::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .my_background ul li {
+    list-style-type: disc;
+    padding: 10px;
+  }
+  
+  .column-left h5 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .column-right h5 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .hobbies {
+    padding-top: 10px;
+    background: rgba(255, 52, 52, 0.039);
+  }
+  
+  .hobbies h2 {
+    text-align: center;
+  }
+  
+  .hobbies div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .projects {
+    padding: 0px 20px;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table,
+  th,
+  td {
+    border-collapse: collapse;
+    border: 1px solid;
+  }
+  
+  table tr th,
+  table tr td {
+    padding: 15px;
+  }
+  
